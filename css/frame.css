@@ -1,0 +1,24 @@
+#frame-header{
+    width: 100%;
+    height: 53px;
+}
+
+#frame-lefter{
+    float: left;
+    width: 200px;
+    background-color: #34495e;
+}
+
+#frame-content{
+    float: left;
+    width: calc(100% - 200px);
+}
+
+#frame-footer{
+    float: left;
+    width: calc(100% - 200px);
+    height: 50px;
+    border-top: 1px solid #e8e8e8;
+    background-color: #ecf0f1;
+    color: #929297;
+}
